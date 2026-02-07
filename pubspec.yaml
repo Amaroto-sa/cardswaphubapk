@@ -1,0 +1,44 @@
+name: cardswaphub_mobile
+description: Official CardSwapHub Mobile App (Android/iOS)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.0.5
+
+  # Networking
+  http: ^1.1.0
+  dio: ^5.3.2
+
+  # Storage & Auth
+  flutter_secure_storage: ^10.0.0
+  shared_preferences: ^2.4.0
+  local_auth: ^3.0.0
+
+  # UI/UX
+  google_fonts: ^8.0.1
+  flutter_animate: ^4.5.2
+  font_awesome_flutter: ^10.12.0
+  cached_network_image: ^3.4.1
+  webview_flutter: ^4.13.1
+  fluttertoast: ^9.0.0
+  lottie: ^3.3.2
+  image_picker: ^1.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/animations/
